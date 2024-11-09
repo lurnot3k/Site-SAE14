@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 6%;
+}
+
+header img {
+    height: 50px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin : 0;
+    padding : 0;
+   
+}
+
+header nav ul li a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Section principale */
+
+.div_principale {
+    background-image: url(../images/Escalade.jpg);
+    background-position-y: -5cm;
+    height: 500px;
+}
+
+/* Transitions */
