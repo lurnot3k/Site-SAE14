@@ -81,15 +81,24 @@ header nav ul li a:hover {
 }
 
 
-section div h1 {
+#donner_envie {
     color: white;
     margin: 0;
-    padding-top: 200px;
-    font-size: 4em;
+    padding-top: 120px;
+    font-size: 3em;
     margin-left: 10%;
-    padding-bottom: 10px;
-    width: 3em;
     border-bottom: 5px orange solid;
+    width: 8%;
+}
+
+#donner_envie h1 {
+    margin: 0;
+}
+
+#donner_envie h2 {
+    width:100em;
+    margin: 0;
+    font-size: 0.3em;
 }
 
 /* Section principale */
@@ -116,7 +125,6 @@ section h2 {
 .div_bienfaits {
     margin-top: 50px;
     padding: 100px 20%;
-    margin-bottom: 120px;
     background-color: #ebebeb;
 }
 
@@ -150,6 +158,63 @@ section h2 {
     margin-top: 25px;
 }
 
+/* Témoignages */
+
+.div_temoignages h2 {
+    align-self: baseline;
+}
+
+.grimpeur_img {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.div_temoignages {
+    margin-top: 50px;
+    padding: 100px 20%;
+    margin-bottom: 120px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p_temoignages {
+    color: #6e6c6c;
+    font-family: "Muli Light", sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.div_temoignages_element {
+    width: 40%;
+}
+
+/* Pratiquer */
+
+.div_pratique {
+    margin-top: 50px;
+    padding: 100px 20%;
+    margin-bottom: 120px;
+    background-color: white;
+    background-color: #ebebeb;
+
+}
+
+.div_pratique aside {
+    width: 4em;
+}
+
+.div_pratique iframe {
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+}
+
 /* Classes génériques */
 
 .p_main {
@@ -166,7 +231,7 @@ section h2 {
     border-bottom: 2px orange solid;
 }
 
-/* Transitions */
+/* Transitions et animations */
 
 .kenburns-bottom {
 	-webkit-animation: kenburns-bottom 10s linear both;
