@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Yeseva One', serif;
+    font-family: "montserrat-regular", sans-serif;
+    color: #151515;
 }
 
 /* Header */
@@ -41,10 +40,20 @@ header nav ul li a{
     font-weight: 400;
     font-style: normal;
 }
+
 header nav ul li a:hover {
-    border-bottom: orange 2px solid;
+    color: orange
 }
-/* Section principale */
+
+#a_page_actuelle {
+    color: orange;
+}
+
+#a_page_actuelle:hover {
+    color: white;
+}
+
+/* Section 1 */
 
 .div_header_and_title {
     position: relative;
@@ -81,6 +90,80 @@ section div h1 {
     padding-bottom: 10px;
     width: 3em;
     border-bottom: 5px orange solid;
+}
+
+/* Section principale */
+
+.div_but {
+    margin-top: 120px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 18%;
+
+
+}
+
+section h2 {
+    font-size: 2em;
+    padding-bottom: 10px;
+
+}
+
+/* Les bienfaits*/
+
+.div_bienfaits {
+    margin-top: 50px;
+    padding: 100px 20%;
+    margin-bottom: 120px;
+    background-color: #ebebeb;
+}
+
+.div_bienfaits aside {
+    width: 4.5em;
+}
+
+.bienfaits_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.div_unite {
+    width: 25%;
+}
+
+.img_bienfaits {
+    height: 100px;
+    margin: auto;
+    display: block;
+
+}
+
+.p_bienfaits {
+    color: #8c8c8c;
+    font-family: "Muli Light", sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* Classes génériques */
+
+.p_main {
+    color: #8c8c8c;
+    font-family: "Muli Light", sans-serif;
+    font-size: 1.35em;
+    max-width: 70%;
+    padding-left: 5%;
+}
+
+.aside_border {
+    width: 60%;
+    padding-bottom: 10px;
+    border-bottom: 2px orange solid;
 }
 
 /* Transitions */
