@@ -120,6 +120,22 @@ section h2 {
 
 }
 
+section h2 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+section h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: orange;
+}
+
 /* Les bienfaits*/
 
 .div_bienfaits {
@@ -225,7 +241,7 @@ section h2 {
     padding-left: 5%;
 }
 
-.aside_border {
+.orange_border {
     width: 60%;
     padding-bottom: 10px;
     border-bottom: 2px orange solid;
