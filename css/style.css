@@ -83,55 +83,63 @@ header nav ul li a:hover {
 
 #donner_envie {
     color: white;
+    position: absolute;
     margin: 0;
-    padding-top: 120px;
+    top: 260px;
     font-size: 3em;
-    margin-left: 10%;
-    border-bottom: 5px orange solid;
-    width: 8%;
+    left: 10%;
+
+    padding-bottom: 30px;
 }
 
 #donner_envie h1 {
     margin: 0;
-}
+}                                                           /* CETTE PARTIE EST IMMONDE, A REPRENDRE */
 
 #donner_envie h2 {
     width:100em;
     margin: 0;
     font-size: 0.3em;
+    position: absolute;
+    left: 4px;
 }
+
+#donner_envie h2::after {
+    border-bottom: 5px orange solid;
+    width: 10%;
+}
+
 
 /* Section principale */
 
 .div_but {
-    margin-top: 120px;
+    margin-top: 70px;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
     margin-left: 20%;
     margin-right: 18%;
+    margin-bottom: 80px;
 
 
 }
 
 section h2 {
     font-size: 2em;
-    padding-bottom: 10px;
-
-}
-
-section h2 {
     position: relative;
     display: inline-block;
     padding-bottom: 10px;
+    margin: 0;
+
 }
+
 
 section h2::after {
     content: "";
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 60%;
     height: 2px;
     background-color: orange;
 }
@@ -140,7 +148,7 @@ section h2::after {
 
 .div_bienfaits {
     margin-top: 50px;
-    padding: 100px 20%;
+    padding: 70px 20%;
     background-color: #ebebeb;
 }
 
@@ -190,8 +198,7 @@ section h2::after {
 
 .div_temoignages {
     margin-top: 50px;
-    padding: 100px 20%;
-    margin-bottom: 120px;
+    padding: 70px 20%;
     background-color: white;
     display: flex;
     align-items: center;
@@ -210,14 +217,31 @@ section h2::after {
     width: 40%;
 }
 
+
+/* Commencer l'escalade */
+
+.div_debuter_escalade {
+    padding: 70px 20%;
+    background-color: #ebebeb;
+
+}
+
+.p_debuter {
+    color: #8c8c8c;
+    font-family: "Muli Light", sans-serif;
+    font-size: 1.35em;
+    max-width: 70%;
+    padding-top: 25px;
+
+}
+
 /* Pratiquer */
 
 .div_pratique {
     margin-top: 50px;
-    padding: 100px 20%;
+    padding: 70px 20%;
     margin-bottom: 120px;
     background-color: white;
-    background-color: #ebebeb;
 
 }
 
@@ -239,6 +263,10 @@ section h2::after {
     font-size: 1.35em;
     max-width: 70%;
     padding-left: 5%;
+}
+
+.h2_whithout_color::after {
+    background-color: transparent;
 }
 
 .orange_border {

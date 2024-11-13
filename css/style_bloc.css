@@ -1,0 +1,4 @@
+.div_header_and_title::before {
+    background-image: url(../images/boulder.jpeg);
+    background-position-y: -386px;
+}
