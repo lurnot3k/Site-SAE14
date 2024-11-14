@@ -1,4 +1,28 @@
 .div_header_and_title::before {
     background-image: url(../images/boulder.jpeg);
-    background-position-y: -386px;
+    background-position-y: 82%;
+}
+
+.div_bloc_main {
+    margin-top: 50px;
+    padding: 70px 20%;
+    background-color: white;
+}
+
+.div_bloc_main p {
+    padding: 50px 4%;
+    font-size: 1.35em;
+}
+
+.div_bloc_other{
+    margin: 0;
+    padding-top: 0;
+}
+
+.container_img_bloc {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }

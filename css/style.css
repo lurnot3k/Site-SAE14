@@ -34,7 +34,7 @@ header nav ul {
 header nav ul li a{
     padding: 5px;
     text-decoration: none;
-    color: currentColor;
+    color: whitesmoke;
     font-size: 1.2em;
     font-family: "Faculty Glyphic", sans-serif;
     font-weight: 400;
@@ -42,7 +42,9 @@ header nav ul li a{
 }
 
 header nav ul li a:hover {
-    color: orange
+    color: orange;
+    border-bottom: 1px solid orange;
+    transition-duration: 450ms;
 }
 
 #a_page_actuelle {
@@ -175,8 +177,6 @@ section h2::after {
 }
 
 .p_bienfaits {
-    color: #8c8c8c;
-    font-family: "Muli Light", sans-serif;
     font-size: 1em;
     text-align: center;
     margin-top: 25px;
@@ -206,8 +206,6 @@ section h2::after {
 }
 
 .p_temoignages {
-    color: #6e6c6c;
-    font-family: "Muli Light", sans-serif;
     font-size: 1em;
     text-align: center;
     margin-top: 25px;
@@ -227,8 +225,7 @@ section h2::after {
 }
 
 .p_debuter {
-    color: #8c8c8c;
-    font-family: "Muli Light", sans-serif;
+
     font-size: 1.35em;
     max-width: 70%;
     padding-top: 25px;
@@ -258,13 +255,22 @@ section h2::after {
 /* Classes génériques */
 
 .p_main {
-    color: #8c8c8c;
-    font-family: "Muli Light", sans-serif;
     font-size: 1.35em;
     max-width: 70%;
     padding-left: 5%;
 }
 
+p {
+    color: #8c8c8c;
+    font-family: "Muli Light", sans-serif;
+}
+
+ul {
+    color: #8c8c8c;
+    font-family: "Muli Light", sans-serif;
+    text-decoration: black;
+    font-size: 1.25em;
+}
 .h2_whithout_color::after {
     background-color: transparent;
 }
@@ -369,3 +375,4 @@ section h2::after {
     -webkit-animation-name: fadeInUp;
     animation-delay: 0.5s;
 }
+
