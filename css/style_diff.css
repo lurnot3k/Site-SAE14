@@ -1,0 +1,51 @@
+.div_header_and_title::before {
+    background-image: url(../images/difficulte.webp);
+    background-position-y: 36%;
+}
+
+.div_diff_main {
+    margin-top: 50px;
+    padding: 70px 20%;
+    background-color: white;
+}
+
+.div_diff_main p {
+    padding: 50px 4%;
+    font-size: 1.35em;
+}
+
+#p1 {
+    padding-bottom: 0;
+    padding-top: 4%;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.35em;
+}
+
+#p2 {
+    padding-bottom: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.35em;
+}
+
+.div_diff_main ul {
+
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.35em;
+}
+
+
+.div_diff_other{
+    margin: 0;
+    padding-top: 0;
+}
+
+.container_img_bloc {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
