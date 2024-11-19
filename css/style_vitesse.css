@@ -42,10 +42,24 @@
     padding-top: 0;
 }
 
-.container_img_bloc {
+.container_img_vitesse {
     display: flex;
     justify-items: center;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
 }
+
+.container_img_vitesse img {
+    height: 750px;
+}
+
+/* Tableau Wikipedia */
+
+#tableau_wiki {
+    display: flex;
+    justify-content: space-around;
+    border-collapse: collapse;
+    
+}
+
