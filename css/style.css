@@ -251,6 +251,64 @@ section h2::after {
     display: block;
 }
 
+/* Footer */
+
+footer {
+    height: 250px;
+    background-color: #141515;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
+    height: 100%;
+}
+
+
+footer h4 {
+    color: #ffffff;
+
+}
+
+.footer_pages {
+    width: 100px;
+    text-align: center;
+}
+
+.footer_pages ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    padding-top: 20px;
+    border-top: #202121 solid 1px;
+}
+
+
+.footer_pages ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer_pages ul a:hover {
+    color: orange;
+    transition-duration: 450ms;
+}
+
+#img_footer {
+    height: 75px;
+}
+
+.footer_explanation {
+    width: 175px;
+}
+
+.footer_social {
+    width: 175px;
+}
+
 /* Classes génériques */
 
 .p_main {
