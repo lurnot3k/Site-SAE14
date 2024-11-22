@@ -6,7 +6,6 @@
 .div_vitesse_main {
     margin-top: 50px;
     padding: 70px 20%;
-    background-color: white;
 }
 
 .div_vitesse_main p {
@@ -39,7 +38,7 @@
 
 .div_vitesse_other{
     margin: 0;
-    padding-top: 0;
+    padding-top: 50px;
 }
 
 .container_img_vitesse {

@@ -6,7 +6,11 @@
 .div_bloc_main {
     margin-top: 50px;
     padding: 70px 20%;
-    background-color: white;
+
+}
+
+.div_bloc_main h2 {
+    padding-top: 50px;
 }
 
 .div_bloc_main p {

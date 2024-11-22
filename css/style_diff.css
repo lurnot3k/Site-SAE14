@@ -6,8 +6,13 @@
 .div_diff_main {
     margin-top: 50px;
     padding: 70px 20%;
-    background-color: white;
+
 }
+
+.div_diff_main h2 {
+    padding-top: 50px;
+}
+
 
 .div_diff_main p {
     padding: 50px 4%;

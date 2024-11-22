@@ -267,7 +267,6 @@ footer {
     height: 100%;
 }
 
-
 footer h4 {
     color: #ffffff;
 
@@ -294,7 +293,7 @@ footer h4 {
 
 .footer_pages ul a:hover {
     color: orange;
-    transition-duration: 450ms;
+    transition-duration: 750ms;
 }
 
 #img_footer {
@@ -307,6 +306,31 @@ footer h4 {
 
 .footer_social {
     width: 175px;
+}
+
+.footer_social ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    padding-top: 20px;
+    border-top: #202121 solid 1px;
+    width: 110px;
+    
+}
+
+.footer_social ul li {
+    padding: 2px;
+    
+}
+
+.footer_social ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer_social ul a:hover {
+    color: orange;
+    transition-duration: 750ms;
 }
 
 /* Classes génériques */
@@ -336,6 +360,10 @@ ul {
     width: 60%;
     padding-bottom: 10px;
     border-bottom: 2px orange solid;
+}
+
+.grey {
+    background-color: #ebebeb;
 }
 
 /* Transitions et animations */
