@@ -1,0 +1,264 @@
+/* PAGE D'ACCUEIL */
+
+@media screen and (max-width: 768px)  {
+
+    .div_but {
+        display: block;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .p_main {
+        max-width: max-content;
+        padding: 0;
+    }
+
+    .bienfaits_flex {
+        flex-direction: column;
+    }
+
+    .div_unite {
+        width: auto;
+        padding-bottom: 50px;
+    }
+
+    .div_temoignages {
+        flex-direction: column;
+        padding: 70px 15%;
+    }
+
+    .div_temoignages_element {
+        width: auto;
+        padding-top: 50px;
+    }
+
+    .div_debuter_escalade {
+        padding: 70px 15%;
+    }
+
+    .p_debuter {
+        max-width: max-content;
+    }
+
+    .div_pratique{
+        padding: 70px 15%;
+    }
+
+    iframe {
+        width : 280px;
+        height : 400px;
+    }
+}
+
+/* PAGE DIFF */
+
+@media screen and (max-width: 768px)  {
+
+    .div_diff_main {
+        padding: 70px 15%;
+    }
+
+}
+
+/* PAGE BLOC */
+
+@media screen and (max-width: 768px) {
+    .div_bloc_main {
+        padding: 70px 15%;
+    }
+}
+
+/* PAGE VITESSE */
+
+@media screen and (max-width: 768px)  {
+
+    .div_vitesse_main {
+        padding: 70px 15%;
+    }
+
+    #tableau_wiki {
+        flex-direction: column;
+    }
+
+    #tableau_wiki caption {
+        text-align: center;
+    }
+}
+
+/* PAGE VITESSE */
+
+@media screen and (max-width: 768px) {
+    .div_sujet {
+        padding: 70px 15%;
+    }
+}
+
+/* MULTI-PAGES */
+
+
+@media screen and (max-width: 768px)  {
+
+    #donner_envie {
+        font-size: 2.2em;
+    }
+
+    footer {
+        height: auto;
+    }
+    
+    .footer_explanation {
+        width: auto;
+    }
+
+    #img_footer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .footer_content {
+        flex-direction: column;
+    }
+
+    .footer_pages {
+        width: auto;
+    }
+
+    .footer_social {
+        width: auto;
+        text-align: center;
+    }
+
+    .footer_social ul {
+        width: auto;
+    }
+
+    #p1 {
+        padding: 0;
+    }
+
+    #p2 {
+        padding: 0;
+    }
+
+    #img_cotation1 {
+        height: 400px;
+    }
+    #img_cotation2 {
+        height: 100px;
+        margin-top: 35px;
+    }
+}
+
+/* Styles pour le menu sur mobile */
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 35%;
+        background-color: #333;
+        position: absolute;
+        left: 60%;
+        z-index: 1000;
+        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+    }
+
+    .nav-links li {
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid #fff;
+    }
+
+    .nav-links li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+ 
+}
+
+/* TABLETTES */
+
+@media screen and (max-width: 1024px) {
+    .div_bienfaits,
+    .div_temoignages,
+    .div_debuter_escalade,
+    .div_pratique,
+    .div_bloc_main,
+    .div_vitesse_main,
+    .div_auteur,
+    .div_sujet {
+        padding: 70px 15%;
+    }
+
+    .div_but {
+        display: block;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .p_main {
+        max-width: max-content;
+        padding: 0;
+    }
+
+    .bienfaits_flex {
+        flex-direction: column;
+    }
+
+    .div_unite {
+        width: auto;
+        padding-bottom: 50px;
+    }
+
+    .div_temoignages {
+        flex-direction: column;
+        padding: 70px 15%;
+    }
+
+    .div_temoignages_element {
+        width: auto;
+        padding-top: 50px;
+    }
+
+    iframe {
+        width : 500px;
+        height : 450px;
+    }
+    #img_cotation1 {
+        height: 600px;
+    }
+    #img_cotation2 {
+        height: 200px;
+        margin-top: 35px;
+    }
+    #tableau_wiki {
+        flex-direction: column;
+    }
+
+    #tableau_wiki caption {
+        text-align: center;
+    }
+}

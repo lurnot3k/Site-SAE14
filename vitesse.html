@@ -7,8 +7,18 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style_vitesse.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="/images/escalade_logo.ico">
     <script src="https://kit.fontawesome.com/170d4d75ca.js" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            function toggleMenu() {
+                var navLinks = document.querySelector('.nav-links');
+                navLinks.classList.toggle('show');
+            }
+            document.querySelector('.menu-icon').addEventListener('click', toggleMenu);
+        });
+    </script>
 </head>
 <body>
     <div class="div_header_and_title">
@@ -16,13 +26,14 @@
             <a href="index.html">
                 <img src="images/escalade_logo.png" alt="logo">
             </a>
-            <nav>            
-                <ul>
+            <nav>
+                <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
+                <ul class="nav-links">
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="difficulte.html">Difficulté</a></li>
                     <li><a href="bloc.html">Bloc</a></li>
-                    <li><a id="a_page_actuelle" href="vitesse.html">Vitesse</a></li>
-                    <li><a href="a_propos.html">À propos</a></li>               
+                    <li><a id="a_page_actuelle"  href="vitesse.html">Vitesse</a></li>
+                    <li><a href="a_propos.html">À propos</a></li>
                 </ul>
             </nav>
         </header>
@@ -384,7 +395,7 @@
             </div>              
         </div>
     </section>
-    <footer>
+    <footer class="animated fadeInUp">
         <div class="footer_content">
             <div class="footer_explanation">
                 <img id="img_footer" src="images/escalade_logo.png" alt="Logo d'escalade du site">
