@@ -44,6 +44,12 @@ Le site est une présentation de l'escalade et notamment de ses sous-disciplines
 *  Menu de navigation sur mobile grâce à un bouton
 *  intégration de carte collaborative (Google MyMaps)
 
+### Technologies utilisées 
+
+* Polices **Google Fonts**, local
+* Icônes **Font Awesome**
+  
+
 
 ## Accessibilité
 Lien de consultation du projet : https://lurnot3k.github.io/Site-SAE14/
