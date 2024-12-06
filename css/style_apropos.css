@@ -1,8 +1,10 @@
+/* Section de l'auteur */
 .div_auteur {
     background-color: white;
     padding: 70px 20%;
 }
 
+/* Image de l'auteur */
 #img_auteur {
     height: 250px;
     border-radius: 50%;
@@ -12,16 +14,18 @@
     margin-top: 50px;
 }
 
+/* Titres h3 */
 h3 {
     text-align: center;
 }
 
-
+/* Texte général */
 .texte {
     padding-top: 25px;
     font-size: 1.35em;
 }
 
+/* Section du sujet */
 .div_sujet {
     background-color: #ebebeb;
     padding: 70px 20%;

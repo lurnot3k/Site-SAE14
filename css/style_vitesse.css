@@ -1,18 +1,22 @@
+/* Avant le header et le titre */
 .div_header_and_title::before {
     background-image: url(../images/vitesse.jpg);
     background-position-y: 36%;
 }
 
+/* Section principale */
 .div_vitesse_main {
     margin-top: 50px;
     padding: 70px 20%;
 }
 
+/* Paragraphes dans la section principale */
 .div_vitesse_main p {
     padding: 50px 4%;
     font-size: 1.35em;
 }
 
+/* Premier paragraphe spécifique */
 #p1 {
     padding-bottom: 0;
     padding-top: 4%;
@@ -21,6 +25,7 @@
     font-size: 1.35em;
 }
 
+/* Deuxième paragraphe spécifique */
 #p2 {
     padding-bottom: 0;
     padding-left: 50px;
@@ -28,19 +33,20 @@
     font-size: 1.35em;
 }
 
+/* Listes dans la section principale */
 .div_vitesse_main ul {
-
     padding-left: 10%;
     padding-right: 10%;
     font-size: 1.35em;
 }
 
-
-.div_vitesse_other{
+/* Autres sections */
+.div_vitesse_other {
     margin: 0;
     padding-top: 50px;
 }
 
+/* Conteneur pour les images */
 .container_img_vitesse {
     display: flex;
     justify-items: center;
@@ -49,19 +55,19 @@
     flex-direction: column;
 }
 
+/* Images dans le conteneur */
 .container_img_vitesse img {
     height: 750px;
 }
 
 /* Tableau Wikipedia */
-
 #tableau_wiki {
     display: flex;
     justify-content: space-around;
     border-collapse: collapse;
-    
 }
 
+/* Style général pour le corps */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -71,12 +77,14 @@ body {
     color: #333;
 }
 
+/* Conteneur pour le tableau */
 .table-container {
     margin: 20px auto;
     max-width: 800px;
     overflow-x: auto;
 }
 
+/* Tableaux */
 .table {
     width: 100%;
     border-collapse: collapse;
@@ -85,6 +93,7 @@ body {
     font-size: 14px;
 }
 
+/* Légendes des tableaux */
 .table caption {
     font-weight: bold;
     margin-bottom: 10px;
@@ -92,6 +101,7 @@ body {
     font-size: 18px;
 }
 
+/* Cellules des tableaux */
 .table th,
 .table td {
     padding: 12px;
@@ -99,20 +109,21 @@ body {
     text-align: left;
 }
 
+/* En-têtes des tableaux */
 .table th {
     background-color: #f1f1f1;
     font-weight: bold;
     color: #333;
 }
 
+/* Drapeaux dans les tableaux */
 .flag img {
     vertical-align: middle;
     margin-right: 8px;
     height: 14px;
 }
 
-
-
+/* Tableaux en mode responsive */
 @media screen and (max-width: 600px) {
     .table {
         font-size: 12px;

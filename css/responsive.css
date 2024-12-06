@@ -1,3 +1,68 @@
+/* TABLETTES */
+
+@media screen and (max-width: 1024px) {
+    .div_bienfaits,
+    .div_temoignages,
+    .div_debuter_escalade,
+    .div_pratique,
+    .div_bloc_main,
+    .div_vitesse_main,
+    .div_auteur,
+    .div_sujet {
+        padding: 70px 15%;
+    }
+
+    .div_but {
+        display: block;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .p_main {
+        max-width: max-content;
+        padding: 0;
+    }
+
+    .bienfaits_flex {
+        flex-direction: column;
+    }
+
+    .div_unite {
+        width: auto;
+        padding-bottom: 50px;
+    }
+
+    .div_temoignages {
+        flex-direction: column;
+        padding: 70px 15%;
+    }
+
+    .div_temoignages_element {
+        width: auto;
+        padding-top: 50px;
+    }
+
+    iframe {
+        width : 500px;
+        height : 450px;
+    }
+    #img_cotation1 {
+        height: 600px;
+    }
+    #img_cotation2 {
+        height: 200px;
+        margin-top: 35px;
+    }
+    #tableau_wiki {
+        flex-direction: column;
+    }
+
+    #tableau_wiki caption {
+        text-align: center;
+    }
+}
+
+/* TELEPHONES */
+
 /* PAGE D'ACCUEIL */
 
 @media screen and (max-width: 768px)  {
@@ -200,65 +265,3 @@
  
 }
 
-/* TABLETTES */
-
-@media screen and (max-width: 1024px) {
-    .div_bienfaits,
-    .div_temoignages,
-    .div_debuter_escalade,
-    .div_pratique,
-    .div_bloc_main,
-    .div_vitesse_main,
-    .div_auteur,
-    .div_sujet {
-        padding: 70px 15%;
-    }
-
-    .div_but {
-        display: block;
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-    .p_main {
-        max-width: max-content;
-        padding: 0;
-    }
-
-    .bienfaits_flex {
-        flex-direction: column;
-    }
-
-    .div_unite {
-        width: auto;
-        padding-bottom: 50px;
-    }
-
-    .div_temoignages {
-        flex-direction: column;
-        padding: 70px 15%;
-    }
-
-    .div_temoignages_element {
-        width: auto;
-        padding-top: 50px;
-    }
-
-    iframe {
-        width : 500px;
-        height : 450px;
-    }
-    #img_cotation1 {
-        height: 600px;
-    }
-    #img_cotation2 {
-        height: 200px;
-        margin-top: 35px;
-    }
-    #tableau_wiki {
-        flex-direction: column;
-    }
-
-    #tableau_wiki caption {
-        text-align: center;
-    }
-}

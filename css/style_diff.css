@@ -1,24 +1,27 @@
+/* Avant le header et le titre */
 .div_header_and_title::before {
     background-image: url(../images/difficulte.webp);
     background-position-y: 36%;
 }
 
+/* Section principale */
 .div_diff_main {
     margin-top: 50px;
     padding: 70px 20%;
-
 }
 
+/* Titres h2 dans la section principale */
 .div_diff_main h2 {
     padding-top: 50px;
 }
 
-
+/* Paragraphes dans la section principale */
 .div_diff_main p {
     padding: 50px 4%;
     font-size: 1.35em;
 }
 
+/* Premier paragraphe spécifique */
 #p1 {
     padding-bottom: 0;
     padding-top: 4%;
@@ -27,6 +30,7 @@
     font-size: 1.35em;
 }
 
+/* Deuxième paragraphe spécifique */
 #p2 {
     padding-bottom: 0;
     padding-left: 50px;
@@ -34,19 +38,20 @@
     font-size: 1.35em;
 }
 
+/* Listes dans la section principale */
 .div_diff_main ul {
-
     padding-left: 10%;
     padding-right: 10%;
     font-size: 1.35em;
 }
 
-
-.div_diff_other{
+/* Autres sections */
+.div_diff_other {
     margin: 0;
     padding-top: 0;
 }
 
+/* Conteneur pour les images */
 .container_img_diff {
     display: flex;
     justify-items: center;

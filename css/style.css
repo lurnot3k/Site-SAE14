@@ -1,5 +1,7 @@
+/* Import des polices */
 @import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
 
+/* Styles globaux */
 body {
     margin: 0;
     padding: 0;
@@ -7,8 +9,8 @@ body {
     color: #151515;
 }
 
+/* ------------------------------------------ */
 /* Header */
-
 header {
     display: flex;
     align-items: center;
@@ -26,12 +28,11 @@ header img {
 header nav ul {
     display: flex;
     list-style: none;
-    margin : 0;
-    padding : 0;
-   
+    margin: 0;
+    padding: 0;
 }
 
-header nav ul li a{
+header nav ul li a {
     padding: 5px;
     text-decoration: none;
     color: whitesmoke;
@@ -54,8 +55,8 @@ header nav ul li a:hover {
     color: white;
 }
 
-/* Section 1 */
-
+/* ------------------------------------------ */
+/* Section 1: Header et titre */
 .div_header_and_title {
     position: relative;
     color: azure;
@@ -70,17 +71,12 @@ header nav ul li a:hover {
     right: 0;
     bottom: 0;
     background-image: url(../images/Escalade.webp);
-    background-size: cover ;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -100px;
     z-index: -1;
     animation: kenburns-contained 7s linear both;
 }
-.div_principale {
-
-    height: 600px;
-}
-
 
 #donner_envie {
     color: white;
@@ -89,16 +85,15 @@ header nav ul li a:hover {
     top: 260px;
     font-size: 3em;
     left: 10%;
-
     padding-bottom: 30px;
 }
 
 #donner_envie h1 {
     margin: 0;
-}                                                           /* CETTE PARTIE EST IMMONDE, A REPRENDRE */
+}
 
 #donner_envie h2 {
-    width:100em;
+    width: 100em;
     margin: 0;
     font-size: 0.3em;
     position: absolute;
@@ -110,8 +105,11 @@ header nav ul li a:hover {
     width: 10%;
 }
 
-
+/* ------------------------------------------ */
 /* Section principale */
+.div_principale {
+    height: 600px;
+}
 
 .div_but {
     margin-top: 70px;
@@ -121,8 +119,6 @@ header nav ul li a:hover {
     margin-left: 20%;
     margin-right: 18%;
     margin-bottom: 80px;
-
-
 }
 
 section h2 {
@@ -131,9 +127,7 @@ section h2 {
     display: inline-block;
     padding-bottom: 10px;
     margin: 0;
-
 }
-
 
 section h2::after {
     content: "";
@@ -145,8 +139,8 @@ section h2::after {
     background-color: orange;
 }
 
-/* Les bienfaits*/
-
+/* ------------------------------------------ */
+/* Les bienfaits */
 .div_bienfaits {
     margin-top: 50px;
     padding: 70px 20%;
@@ -172,7 +166,6 @@ section h2::after {
     height: 100px;
     margin: auto;
     display: block;
-
 }
 
 .p_bienfaits {
@@ -181,7 +174,16 @@ section h2::after {
     margin-top: 25px;
 }
 
+/* ------------------------------------------ */
 /* Témoignages */
+.div_temoignages {
+    margin-top: 50px;
+    padding: 70px 20%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .div_temoignages h2 {
     align-self: baseline;
@@ -195,15 +197,6 @@ section h2::after {
     border-radius: 50%;
 }
 
-.div_temoignages {
-    margin-top: 50px;
-    padding: 70px 20%;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .p_temoignages {
     font-size: 1em;
     text-align: center;
@@ -214,31 +207,26 @@ section h2::after {
     width: 40%;
 }
 
-
+/* ------------------------------------------ */
 /* Commencer l'escalade */
-
 .div_debuter_escalade {
     padding: 70px 20%;
     background-color: #ebebeb;
-
 }
 
 .p_debuter {
-
     font-size: 1.35em;
     max-width: 70%;
     padding-top: 25px;
-
 }
 
+/* ------------------------------------------ */
 /* Pratiquer */
-
 .div_pratique {
     margin-top: 50px;
     padding: 70px 20%;
     margin-bottom: 120px;
     background-color: white;
-
 }
 
 .div_pratique aside {
@@ -251,8 +239,8 @@ section h2::after {
     display: block;
 }
 
+/* ------------------------------------------ */
 /* Footer */
-
 footer {
     height: 250px;
     background-color: #141515;
@@ -269,7 +257,6 @@ footer {
 
 footer h4 {
     color: #ffffff;
-
 }
 
 .footer_pages {
@@ -284,7 +271,6 @@ footer h4 {
     padding-top: 20px;
     border-top: #202121 solid 1px;
 }
-
 
 .footer_pages ul a {
     color: white;
@@ -315,12 +301,10 @@ footer h4 {
     padding-top: 20px;
     border-top: #202121 solid 1px;
     width: 110px;
-    
 }
 
 .footer_social ul li {
     padding: 2px;
-    
 }
 
 .footer_social ul a {
@@ -333,8 +317,8 @@ footer h4 {
     transition-duration: 750ms;
 }
 
+/* ------------------------------------------ */
 /* Classes génériques */
-
 .p_main {
     font-size: 1.35em;
     max-width: 70%;
@@ -352,6 +336,7 @@ ul {
     text-decoration: black;
     font-size: 1.25em;
 }
+
 .h2_whithout_color::after {
     background-color: transparent;
 }
@@ -366,57 +351,44 @@ ul {
     background-color: #ebebeb;
 }
 
-
+/* ------------------------------------------ */
 /* Transitions et animations */
-
 .kenburns-bottom {
-	-webkit-animation: kenburns-bottom 10s linear both;
-	        animation: kenburns-bottom 10s linear both;
+    -webkit-animation: kenburns-bottom 10s linear both;
+    animation: kenburns-bottom 10s linear both;
 }
 
-/* ----------------------------------------------
- * Generated by Animista on 2024-11-9 20:50:41
- * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
-
-/**
- * ----------------------------------------
- * animation kenburns-bottom
- * ----------------------------------------
- */
- @-webkit-keyframes kenburns-bottom {
+@-webkit-keyframes kenburns-bottom {
     0% {
-      -webkit-transform: scale(1) translateY(0);
-              transform: scale(1) translateY(0);
-      -webkit-transform-origin: 50% 84%;
-              transform-origin: 50% 84%;
+        -webkit-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0);
+        -webkit-transform-origin: 50% 84%;
+        transform-origin: 50% 84%;
     }
     100% {
-      -webkit-transform: scale(1.25) translateY(15px);
-              transform: scale(1.25) translateY(15px);
-      -webkit-transform-origin: bottom;
-              transform-origin: bottom;
+        -webkit-transform: scale(1.25) translateY(15px);
+        transform: scale(1.25) translateY(15px);
+        -webkit-transform-origin: bottom;
+        transform-origin: bottom;
     }
-  }
-  @keyframes kenburns-bottom {
+}
+
+@keyframes kenburns-bottom {
     0% {
-      -webkit-transform: scale(1) translateY(0);
-              transform: scale(1) translateY(0);
-      -webkit-transform-origin: 50% 84%;
-              transform-origin: 50% 84%;
+        -webkit-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0);
+        -webkit-transform-origin: 50% 84%;
+        transform-origin: 50% 84%;
     }
     100% {
-      -webkit-transform: scale(1.25) translateY(15px);
-              transform: scale(1.25) translateY(15px);
-      -webkit-transform-origin: bottom;
-              transform-origin: bottom;
+        -webkit-transform: scale(1.25) translateY(15px);
+        transform: scale(1.25) translateY(15px);
+        -webkit-transform-origin: bottom;
+        transform-origin: bottom;
     }
-  }
+}
 
- 
-  @keyframes kenburns-contained {
+@keyframes kenburns-contained {
     0% {
         transform: scale(1) translateY(0);
     }
@@ -425,7 +397,7 @@ ul {
     }
 }
 
-  @keyframes fadeInUp {
+@keyframes fadeInUp {
     from {
         transform: translate3d(0,40px,0)
     }
@@ -451,9 +423,8 @@ ul {
     animation-duration: 1.5s;
     animation-fill-mode: both;
     -webkit-animation-duration: 1s;
-    -webkit-animation-fill-mode: both
+    -webkit-animation-fill-mode: both;
 }
-
 
 .fadeInUp {
     opacity: 0;
@@ -462,25 +433,13 @@ ul {
     animation-delay: 0.5s;
 }
 
-/* ----------------------------------------------
- * Generated by Animista on 2024-11-25 14:11:37
- * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
-
-/**
- * ----------------------------------------
- * animation slide-in-top
- * ----------------------------------------
- */
- @keyframes slide-in-top {
+@keyframes slide-in-top {
     0% {
-      transform: translateY(-1000px);
-      opacity: 0;
+        transform: translateY(-1000px);
+        opacity: 0;
     }
     100% {
-      transform: translateY(0);
-      opacity: 1;
+        transform: translateY(0);
+        opacity: 1;
     }
-  }
+}
